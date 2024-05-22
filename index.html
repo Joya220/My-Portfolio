@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style4.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header class="header">
+    <img src="jm.png" class="logo" alt="">
+    <div class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+    </div>
+    <a href="#contact" class="contact">Contact Me</a>
+    <div class="toggle_btn">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <div class="dropdown_menu">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact" class="contact">Contact Me</a></li>
+    </div>
+  </header>
+  <section id="home">
+  <div class="home">
+    <div class="home-content">
+      <h3>Hi!</h3>
+      <h1>I'm <span>Joya</span><br>a Student</h1>
+
+      <p>My name is Joya Mondal,and my portfolio is a representation of all that i've learned as a student.</p>
+    <div class="btn-box">
+      <a href="#about"><button class="btn-1">More About Me</a></button>
+    </div>
+    </div>
+    <div class="img-box">
+      <img src="Myself.jpg" alt="">
+    </div>  
+  </div>
+</section>
+  <section id="about">
+  <div class="about">
+    <div class="about-img">
+   <img src="Myself.jpg" alt="">
+</div>
+<div class="about-content">
+   <h2 class="heading">About<span>Me</span>
+   </h2>
+   <br>
+   <div class="text">
+    <h1>Student</h1>
+   </div>
+   <p>I'm passionate about both web design and cybersecurity. In web design, I enjoy crafting visually stunning and user-friendly websites, paying attention to details like layout and typography. Simultaneously, I'm diving into the world of cybersecurity, learning how to protect digital assets from threats and vulnerabilities, ensuring a secure online environment for users.</p>
+   
+   <div class="tab-link" onclick="openTab(education)"style="text-align:center;">Education</div>
+   <div class="tabs">
+        <div class="tabs-containers">
+             <ul class="edu">
+              <li>
+                <h4>2020-2021</h4>
+                <p>Secondery Examination(83%)</p>
+                <p>Board:WBBSE</p>
+              </li>
+              <li>
+                <h4>2022-2023</h4>
+                <p>Higher Secondery(86.2%)</p>
+                <p>Board:WBCHSE</p>
+              </li>
+              <li>
+                <h4>2023-Current</h4>
+                <p>BCA</p>
+                <p>Eminent College Of Management & Technology</p>
+              </li>
+             </ul>
+        </div>       
+</div>
+</div>
+ </div>  
+ </section>
+ <section id="skills">
+ <div class="skills" id="skills">
+     <div class="main-text">
+      <h2><span>My</span>Skills</h2>
+     </div>
+     <div class="skills-content">
+      <div class="box">
+        <div class="s-icons">
+          <i class='bx bxl-c-plus-plus' ></i>
+        </div>
+        <h3>C++</h3>
+        <p>C++ is a powerful, high-performance programming language that is widely used in software development. It was developed by Bjarne Stroustrup at Bell Labs in the early 1980s as an extension of the C programming language. C++ code is compiled into machine code using a compiler, which makes the programs fast and efficient.</p>
+      </div>
+      <div class="box">
+        <div class="s-icons">
+          <i class='bx bxl-python' ></i>
+        </div>
+        <h3>Python</h3>
+        <p>Python is a high-level, interpreted programming language known for its readability, simplicity, and versatility. It was created by Guido van Rossum and first released in 1991.Python code is executed line by line by an interpreter.Variables can change type and don't need explicit declaration.Abstracts low-level details, making development faster and easier</p>
+      </div>
+      <div class="box">
+        <div class="s-icons">
+          <i class='bx bxl-html5' ></i>
+        </div>
+        <h3>HTML 5</h3>
+        <p>HTML5 is the latest version of Hypertext Markup Language (HTML), which is the standard language for creating and structuring content on the web. HTML5 introduces new elements, attributes, and behaviors that provide more powerful and flexible ways to develop web pages and applications.HTML5 aims to improve accessibility across device.</p>
+      </div>
+      <div class="box">
+        <div class="s-icons">
+          <i class='bx bxs-file-css' ></i>
+        </div>
+        <h3>CSS</h3>
+        <p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML or XML. CSS controls the layout, colors, fonts, and overall appearance of web pages, making them more visually appealing and easier to interact with.CSS provides tools to create responsive web designs to different screen sizes.</p>
+     </div>
+ </div>
+</section>
+<section id="contact">
+<div class="contact-1">
+  <div class="contact-form">
+    <h2 class="contact-me">Contact <span>Me</span></h2>
+    <form action="#">
+      <div class="input-box">
+          <input type="text" placeholder="Full Name" id="name" name="name" required>
+          <input type="email" placeholder="Enter email" id="email" name="email" required >
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="+91xxxxxxxxxx" id="mobile" name="mobile" required>
+        <input type="subject" placeholder="subject" id="subject" name="subject" required>
+    </div>
+    <textarea  cols="30" rows="10" placeholder="Your Message......" name="message" id="message" required></textarea>
+    <input type="submit" value="Send Message" class="btn-1" id="textbox" onclick="validateForm()">
+      </form>
+ </div>
+</div>
+</section>
+<footer class="footer">
+  <div class="social">
+    <a href="https://www.facebook.com/profile.php?id=100092295190702&mibextid=ZbWKwL"><i class='bx bxl-facebook-circle'></i></a>
+    <a href="https://www.instagram.com/_joya.220_?igsh=MXJ5NzZyNTAwMHFpNQ=="><i class='bx bxl-instagram-alt'></i></a>
+    <a href="https://x.com/Joya19957?t=yfdnUh-Ay1sJBK0S0DLhxA&s=09"><i class='bx bxl-twitter' ></i></a>
+    <a href="https://pin.it/3pB5gK84V"><i class='bx bxl-pinterest'></i></a>
+  </div>
+  <ul class="list">
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#about">About Me</a>
+      </li>
+      <li>
+        <a href="#skills">My Skills</a>
+      </li>
+      <li>
+        <a href="#contact">Contact Me</a>
+      </li>
+    </ul>
+  <p class="copyright">© 2024 All right reserved | Made by Joya Mondal</p>
+</footer>
+  </div>
+</div> 
+</body>
+<script src="script.js"></script>
+</html>
